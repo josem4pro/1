@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+*.coverage
+*.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+VENV/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de sistema operativo
+Thumbs.db
+Desktop.ini
+
+# Si tienes archivos de modelos grandes que no quieres subir directamente
+# models/*.safetensors
+# models/*.bin
